@@ -1431,6 +1431,7 @@
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </English>
+        <French>Boucanier:Boucaniers</French>
         <German>
             <Text>Bukanier:Bukaniere</Text>
             <Gender>Male</Gender>
@@ -1971,7 +1972,7 @@
         <Tag>TXT_KEY_UNIT_EUROPEAN_LINE_INFANTRY</Tag>
         <English>European Line Infantry:European Line Infantry</English>
         <French>
-            <Text>European Line Infantry:European Line Infantry</Text>
+            <Text>Infanterie de ligne européenne:Infanterie de ligne européenne</Text>
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </French>
@@ -2844,9 +2845,9 @@
             <Plural>0:1</Plural>
         </English>
         <French>
-            <Text>Général illustre</Text>
+            <Text>Général illustre:Généraux illustres</Text>
             <Gender>Male</Gender>
-            <Plural>0</Plural>
+            <Plural>0:1</Plural>
         </French>
         <German>
             <Text>Großer General:Große Generäle</Text>
@@ -2876,7 +2877,7 @@
     <TEXT>
         <Tag>TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY</Tag>
         <English>A [COLOR_UNIT_TEXT]great general[COLOR_REVERT] can join another fighting unit.[NEWLINE]When attached to that unit, he grants it the [LINK=PROMOTION_LEADER]Led By Great General[\LINK] promotion, which gives a 25% combat bonus against gunpowder and melee units, as well as access to other promotions.[NEWLINE]It also gives a one-time experience bonus shared among units on the same tile.[NEWLINE]They can be obtained by earning [COLOR_HIGHLIGHT_TEXT]Great General Points[COLOR_REVERT] through combat experience.[NEWLINE]For each additional great general, a colony needs more military experience.[NEWLINE]In the unit list ([COLOR:140:255:40:255]&lt; F5 &gt;[COLOR_REVERT]) you can see how much experience has already been gained in a progress bar at the bottom.[PARAGRAPH:2]For information about how great generals work, see [LINK=CONCEPT_GREAT_GENERALS]Great Generals and Admirals[\LINK].</English>
-        <French>Un [COLOR_UNIT_TEXT]Général illustre[COLOR_REVERT] peut rejoindre une autre unité sur le champ de bataille, conférant ainsi une grande expérience martiale aux unités présentes dans la même case et conférant à ces unités l'accès à des promotions uniques.</French>
+        <French>Un [COLOR_UNIT_TEXT]Général illustre[COLOR_REVERT] peut rejoindre une autre unité sur le champ de bataille.[NEWLINE]Rattaché à cette unité, il lui confère la promotion [LINK=PROMOTION_LEADER]mené par un général illustre[\LINK] lui donnant des bonus de combat de 25% contre les unités de combat rapproché et celles munies d'arme à feu, ainsi que l'accès à des promotions uniques.[NEWLINE]Le rattachement donne également un bonus ponctuel d'expérience aux unités terrestres présentes sur la même case.[NEWLINE]Les généraux peuvent être obtenus en acculant des [COLOR_HIGHLIGHT_TEXT]Points de généraux illustres[COLOR_REVERT] via l'expérience de combat.[NEWLINE][PARAGRAPH:2]Pour plus d'informations sur le fonctionnement des généraux, voir [LINK=CONCEPT_GREAT_GENERALS]Généraux et Amiraux illustres[\LINK]</French>
         <German>Wenn ein Volk viele Schlachten bestreitet, bringt es im Laufe der Zeit einen [COLOR_UNIT_TEXT]Großen General[COLOR_REVERT] hervor. Der General ist kein guter Kämpfer und kann sich zudem nur verteidigen. Aber er kann sich einer anderen Einheit im Feld anschließen und dabei dieser und allen anderen Einheiten auf demselben Geländefeld einen einmaligen Erfahrungsbonus sowie die Möglichkeit besonderer Beförderungen gewähren.[PARAGRAPH:2]Für jeden weiteren Großen General braucht ein Volk mehr militärische Erfahrung. In der Einheitenliste ([COLOR:140:255:40:255]&lt; F5 &gt;[COLOR_REVERT]) kann man unten in einem Fortschrittsbalken ablesen, wieviel Erfahrung bereits gesammelt wurde.</German>
         <Italian>Un [COLOR_UNIT_TEXT]Grande Generale[COLOR_REVERT] puó unirsi a un'altra unità sul campo, dando alle unità presenti nella stessa casella un bonus di esperienza da combattimento una tantum, e assicurando all'unità a cui si è unito accesso a promozioni uniche.</Italian>
         <Spanish>Un [COLOR_UNIT_TEXT]Gran general[COLOR_REVERT] puede unirse a otra unidad que haya en el campo, con lo que aportará una bonificación única a las unidades de la misma casilla y garantizará a su unidad acceder a ascensos especiales.</Spanish>
@@ -2993,6 +2994,9 @@
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </English>
+        <French>
+            <Text>Artilleur lourd vétéran:Artilleurs lourds vétérans</Text>
+        </French>
         <German>
             <Text>Schwere Artillerie Veteran:Schwere Artillerie Veteranen</Text>
             <Gender>Female</Gender>
@@ -3521,6 +3525,9 @@
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </English>
+        <French>
+            <Text>Artilleur léger vétéran:Artilleurs légers vétérans</Text>
+        </French>
         <German>
             <Text>Leichte Artillerie Veteran:Leichte Artillerie Veteranen</Text>
             <Gender>Female</Gender>
@@ -5097,6 +5104,11 @@
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </English>
+        <French>
+            <Text>Artilleur royal:Artilleurs royaux</Text>
+            <Gender>Male</Gender>
+            <Plural>0:1</Plural>
+        </French>
         <German>
             <Text>Königlicher Artillerist:Königliche Artilleristen</Text>
             <Gender>Female</Gender>
@@ -5202,7 +5214,7 @@
             <Plural>0:1</Plural>
         </English>
         <French>
-            <Text>Brigadier royal:Brigadiers royaux</Text>
+            <Text>Piquier royal:Piquiers royaux</Text>
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </French>
@@ -5226,7 +5238,7 @@
     <TEXT>
         <Tag>TXT_KEY_UNIT_ROYAL_HALBERDIER_STRATEGY</Tag>
         <English>The [COLOR_UNIT_TEXT]Royal Halberdiers[COLOR_REVERT], specialists of the profession [LINK=PROFESSION_ROYAL_HALBERDIER]Royal Halberdiers[\LINK], are the weakest part of the elite ground forces of the Royal Expeditionary Force.[NEWLINE]However, the Royal Halberdiers get a bonus of 25% when attacking mounted units (dragoons and heavy cavalry).[NEWLINE]The Royal Halberdiers are the royal counterpart of the colonial [LINK=PROFESSION_TOWN_GUARD]town guard[\LINK] and get the free promotions [LINK=PROMOTION_VETERAN1]Veteran I[\LINK] and [LINK=PROMOTION_VETERAN2]Veteran II[\LINK] so they are strong defensive units.[NEWLINE]You should attack them with infantry units, not with cavalry.</English>
-        <French>Les [COLOR_UNIT_TEXT]brigadiers royaux[COLOR_REVERT], spécialistes de la profession [LINK=PROFESSION_ROYAL_HALBERDIER]brigadier royal[\LINK], sont les unités les plus faibles du corps expéditionnaire royal.[NEWLINE]Cependant, ils bénéficient d'un bonus de 25% contre les unités montés (dragons et cavaleries).[NEWLINE]Les bridgadiers royaux sont l'équivalent royal du brigadier vétéran et bénéficient des promotions [LINK=PROMOTION_VETERAN1]Vétéran I[\LINK] et [LINK=PROMOTION_VETERAN2]Vétéran II[\LINK], ce qui leur accorder une certaine puissance défensive.[NEWLINE]Elles sont plus facilement vaincues avec des unités d'infanterie qu'avec des unités montés.</French>
+        <French>Les [COLOR_UNIT_TEXT]Piquiers royaux[COLOR_REVERT], spécialistes de la profession [LINK=PROFESSION_ROYAL_HALBERDIER]Piquier royal[\LINK], sont les unités les plus faibles du corps expéditionnaire royal.[NEWLINE]Cependant, ils bénéficient d'un bonus de 25% contre les unités montés (dragons et cavaleries).[NEWLINE]Les bridgadiers royaux sont l'équivalent royal du Piquier vétéran et bénéficient des promotions [LINK=PROMOTION_VETERAN1]Vétéran I[\LINK] et [LINK=PROMOTION_VETERAN2]Vétéran II[\LINK], ce qui leur accorder une certaine puissance défensive.[NEWLINE]Elles sont plus facilement vaincues avec des unités d'infanterie qu'avec des unités montés.</French>
         <German>Das Expeditionskorps des Königs verfügt mit den [LINK=PROFESSION_ROYAL_HALBERDIER]Königlichen Hellebardenträgern[\LINK] (entspricht der [LINK=PROFESSION_TOWN_GUARD]Stadtwache[\LINK]) über einen ähnlichen Militärberuf wie die Kolonialnationen.[NEWLINE]Allerdings sind die Einheiten, die diese Berufe ausüben, stärker: Der [COLOR_UNIT_TEXT]Königliche Hellebardenträger[COLOR_REVERT] verfügt automatisch über die Beförderungen [LINK=PROMOTION_VETERAN1]Veteran I[\LINK] und [LINK=PROMOTION_VETERAN2]Veteran II[\LINK] (und damit insgesamt einem Bonus von 20% auf die Kampfstärke und einen Kampfbonus von 25% gegen Berittene).[NEWLINE]Aufgrund ihrer Stärke gegen berittene Einheiten bekämpft man sie am besten mit Infanterie, wie der Kolonialmiliz und der Linieninfanterie.</German>
     </TEXT>
     <TEXT>
@@ -5280,7 +5292,7 @@
             <Plural>0:1</Plural>
         </English>
         <French>
-            <Text>Royal d'Infanterie:Royaux d'Infanterie</Text>
+            <Text>Fantassin de ligne royale:Fantassins de ligne royales</Text>
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </French>
@@ -5712,9 +5724,14 @@
         <Tag>TXT_KEY_UNIT_SLOOP</Tag>
         <English>
             <Text>Sloop:Sloops</Text>
-            <Gender>Male</Gender>
+            <Gender>Female</Gender>
             <Plural>0:1</Plural>
         </English>
+        <French>
+            <Text>Sloup:Sloups</Text>
+            <Gender>Male</Gender>
+            <Plural>0:1</Plural>
+        </French>
         <German>
             <Text>Schaluppe:Schaluppen</Text>
             <Gender>Female</Gender>
@@ -5740,8 +5757,9 @@
     </TEXT>
     <TEXT>
         <Tag>TXT_KEY_UNIT_SLOOP_STRATEGY</Tag>
-        <English>[COLOR_UNIT_TEXT]Sloops[COLOR_REVERT] are the fastest naval units in the game and, because of that, they are particularly suitable for exploring the seas of the New World and searching out [LINK=IMPROVEMENT_GOODY_HUT3]shipwrecks[\LINK].[NEWLINE]They have only one cargo slot which makes them practically useless as trading vessels, but they can transport [LINK=CONCEPT_UNITS]military units[\LINK] very swiftly to where they are needed.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Sloops[COLOR_REVERT] are cheap in [LINK=CONCEPT_EUROPE]Europe[\LINK] and can be built in colonies with a [LINK=BUILDING_DRYDOCK]drydock[\LINK] or one of its upgrades.[NEWLINE]Like most ships they need [LINK=YIELD_CANNONS]cannons[\LINK], [LINK=YIELD_ROPE]ropes[\LINK], [LINK=YIELD_SAILCLOTH]sailcloth[\LINK] and [LINK=YIELD_TOOLS]tools[\LINK].[PARAGRAPH:2]For a comparison of all ships that are available, see [LINK=CONCEPT_SHIPS]Ships[\LINK].</English>
-        <French>Même si peu puissants, les [COLOR_UNIT_TEXT]sloops[COLOR_REVERT] sont d'excellents navires de reconnaissance qui peuvent achever des navires déjà endommagés.</French>
+        <English>[COLOR_UNIT_TEXT]Sloops[COLOR_REVERT] are the fastest naval units in the game and, because of that, they are particularly suitable for exploring the seas of the New World and searching out [LINK=IMPROVEMENT_GOODY_HUT3]shipwrecks[\LINK].[NEWLINE]They have only one cargo slot which makes them practically useless as trading vessels, but they can transport [LINK=CONCEPT_UNITS]military units[\LINK] very swiftly to where they are needed.[NEWLINE]Their limited draft allows them to sail up [LINK=CONCEPT_LARGE_RIVERS]Large Rivers[\LINK] mostly unopposed by other ship classes. [NEWLINE][COLOR_HIGHLIGHT_TEXT]Sloops[COLOR_REVERT] are cheap in [LINK=CONCEPT_EUROPE]Europe[\LINK] and can be built in colonies with a [LINK=BUILDING_DRYDOCK]drydock[\LINK] or one of its upgrades.[NEWLINE]Like most ships they need [LINK=YIELD_CANNONS]cannons[\LINK], [LINK=YIELD_ROPE]ropes[\LINK], [LINK=YIELD_SAILCLOTH]sailcloth[\LINK] and [LINK=YIELD_TOOLS]tools[\LINK].[PARAGRAPH:2]For a comparison of all ships that are available, see [LINK=CONCEPT_SHIPS]Ships[\LINK].</English>
+        <French>Les [COLOR_UNIT_TEXT]Sloups[COLOR_REVERT] sont les unités navales les plus rapides du jeu, et grace à  ça, sont adaptées à l'exploration des mers du Nouveau Monde et à fouiller les [LINK=IMPROVEMENT_GOODY_HUT3]épaves[\LINK].[NEWLINE]Ils n'ont qu'un emplacement de cale, ce qui les rend quasi inutiles comme navire marchand, mais ils peuvent transporter des [LINK=CONCEPT_UNITS]troupes[\LINK] là où elles sont nécessaires.[NEWLINE] Leur faible tirant d'eau leur permet de remonter [LINK=CONCEPT_LARGE_RIVERS]les grandes rivières[\LINK] sans rencontrer d'opposition d'autres classes de navires.
+            <!-- TODO -->.</French>
         <German>Obwohl eine [COLOR_UNIT_TEXT]Schaluppe[COLOR_REVERT] kein besonders starkes Kriegsschiff ist, eignet es sich hervorragend zur Aufklärung und auch dazu angeschlagenen Schiffen den Rest zu geben.</German>
     </TEXT>
     <TEXT>
@@ -5751,6 +5769,11 @@
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </English>
+        <French>
+            <Text>Goélette:Goélettes</Text>
+            <Gender>Male</Gender>
+            <Plural>0:1</Plural>
+        </French>
         <German>
             <Text>Schooner:Schooner</Text>
             <Gender>Male</Gender>
@@ -6670,7 +6693,7 @@
             <Plural>0:1</Plural>
         </English>
         <French>
-            <Text>Brigadier vétéran:Brigadiers vétérans</Text>
+            <Text>Piquier vétéran:Piquiers vétérans</Text>
             <Gender>Male</Gender>
             <Plural>0:1</Plural>
         </French>
@@ -6694,7 +6717,7 @@
     <TEXT>
         <Tag>TXT_KEY_UNIT_VETERAN_TOWN_GUARD_STRATEGY</Tag>
         <English>[COLOR_UNIT_TEXT]Veteran town guards[COLOR_REVERT] are cheap infantry units.[NEWLINE]They are the specialists of the profession [LINK=PROFESSION_TOWN_GUARD]town guard[\LINK].[NEWLINE]They have +30% settelment defense and the promotions [LINK=PROMOTION_VETERAN1]Veteran I[\LINK] and [LINK=PROMOTION_LAW_KEEPER_1]Law Keeper I[\LINK] /[LINK=PROMOTION_LAW_KEEPER_2] II [\LINK] from the start, which results in +3 [LINK=YIELD_LAW]law[\LINK] bonus in the city.[NEWLINE]The King expands his Royal Expeditionary Force when many settlers in the colonies have a military profession, but the King does not see veteran town guards as an increased threat.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Veteran town guards[COLOR_REVERT] may randomly appear at the pier in Europe as [LINK=CONCEPT_IMMIGRATION]emigrants[\LINK], but they may also be recruited in [LINK=CONCEPT_EUROPE]Europe[\LINK] in which case they are already equipped with [LINK=YIELD_BLADES]Bladed Weapons[\LINK].[NEWLINE]They can also be [LINK=CONCEPT_TRAINING]trained[\LINK] in a colony with a [LINK=BUILDING_COLLEGE]college[\LINK] or one of its upgrades. The completion of the training costs 300[ICON_GOLD].[NEWLINE]This specialist will benefit from his bonus in the job he is designed for.</English>
-        <French>Les [COLOR_UNIT_TEXT]brigadiers vétérans[COLOR_REVERT], unités d'infanterie bon marché, sont les spécialistes de la profession [LINK=PROFESSION_TOWN_GUARD]brigadier[\LINK]. Ils bénéficient des promotions [LINK=PROMOTION_TOWN_GUARD]Défense de ville[\LINK] et [LINK=PROMOTION_VETERAN1]Vétéran I[\LINK] dè le départ, ce qui leur apporte un bonus total de combat de 25% contre les unités montés. Le roi accroît son corps expéditionnaire royal lorsque de nombreux colons exercent des professions militaires, mais il ne fait pas la distinction entre les brigadiers vétérans ou non vétérans lorsqu'il estime la menace.[PARAGRAPH:1]Les [COLOR_HIGHLIGHT_TEXT]brigadiers vétérans[COLOR_REVERT] peuvent apparaître aléatoirement à l'embarcadère en Europe en tant qu'[LINK=CONCEPT_IMMIGRATION]émigrés[\LINK]. Ils peuvent également être recruté à tout moment en [LINK=CONCEPT_EUROPE]Europe[\LINK]. Lorsque des bridagiers vétérans vous attendent en Europe, ils sont dékà équipés de [LINK=YIELD_BLADES]sabres[\LINK]. Leur profession peut également être [LINK=CONCEPT_TRAINING]enseignée[\LINK] dans les [LINK=BUILDING_UNIVERSITY]universités[\LINK] de vos colonies. Ce spécialiste bénéficiera au mieux de ses aptitudes en tant que défenseur d'une colonie.</French>
+        <French>Les [COLOR_UNIT_TEXT]Piquiers vétérans[COLOR_REVERT], unités d'infanterie bon marché, sont les spécialistes de la profession [LINK=PROFESSION_TOWN_GUARD]Piquier[\LINK]. Ils bénéficient des promotions [LINK=PROMOTION_TOWN_GUARD]Défense de ville[\LINK] et [LINK=PROMOTION_VETERAN1]Vétéran I[\LINK] dè le départ, ce qui leur apporte un bonus total de combat de 25% contre les unités montés. Le roi accroît son corps expéditionnaire royal lorsque de nombreux colons exercent des professions militaires, mais il ne fait pas la distinction entre les Piquiers vétérans ou non vétérans lorsqu'il estime la menace.[PARAGRAPH:1]Les [COLOR_HIGHLIGHT_TEXT]Piquiers vétérans[COLOR_REVERT] peuvent apparaître aléatoirement à l'embarcadère en Europe en tant qu'[LINK=CONCEPT_IMMIGRATION]émigrés[\LINK]. Ils peuvent également être recruté à tout moment en [LINK=CONCEPT_EUROPE]Europe[\LINK]. Lorsque des bridagiers vétérans vous attendent en Europe, ils sont dékà équipés de [LINK=YIELD_BLADES]sabres[\LINK]. Leur profession peut également être [LINK=CONCEPT_TRAINING]enseignée[\LINK] dans les [LINK=BUILDING_UNIVERSITY]universités[\LINK] de vos colonies. Ce spécialiste bénéficiera au mieux de ses aptitudes en tant que défenseur d'une colonie.</French>
         <German>[COLOR_UNIT_TEXT]Erfahrene Stadtwachen[COLOR_REVERT] sind günstige Infanterie-Einheiten.[NEWLINE]Sie sind die Spezialisten für den Beruf der [LINK=PROFESSION_TOWN_GUARD]Stadtwache[\LINK]. [NEWLINE]Sie verfügen automatisch über +30% Siedlungsverteidigung und die Beförderungen [LINK=PROMOTION_VETERAN1]Veteran I[\LINK] und [LINK=PROMOTION_LAW_KEEPER_1]Gesetzeshüter I[\LINK] /[LINK=PROMOTION_LAW_KEEPER_2] II [\LINK], was zu einem Bonus von +3 [LINK=YIELD_LAW]Justiz[\LINK] in der Stadt führt. [NEWLINE]Verfügt man über viele Erfahrene Militäreinheiten, gewinnt man an militärischer Stärke, ohne dass dies vom König zum Anlass genommen wird, sein Expeditionskorps entsprechend aufzustocken. Denn der König reagiert zwar darauf, dass man Bürger in Militärberufen einsetzt, nicht aber darauf, ob es sich um gewöhnliche Bürger oder um Veteranen handelt.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Erfahrene Stadtwachen[COLOR_REVERT] können zufällig im Europahafen als [LINK=CONCEPT_IMMIGRATION]Auswanderer[\LINK] auftauchen, sie können aber auch in [LINK=CONCEPT_EUROPE]Europa[\LINK] rekrutiert werden, wobei sie in diesen Fällen bereits mit [LINK=YIELD_BLADES]Klingenwaffen[\LINK] ausgerüstet sind.[NEWLINE]Sie können auch in einer Kolonie mit einer [LINK=BUILDING_COLLEGE]Akademie[\LINK] oder einer seiner Erwiterungen [LINK=CONCEPT_TRAINING]ausgebildet[\LINK] werden. Der Abschluss der Ausbildung kostet 300[ICON_GOLD].[NEWLINE]Dieser Spezialist profitiert von seinem Bonus in dem Beruf, für den er vorgesehen ist.</German>
     </TEXT>
     <TEXT>

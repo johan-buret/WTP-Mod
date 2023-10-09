@@ -1518,6 +1518,12 @@ void CvUnitAI::AI_settlerMove()
 			return;
 		}
 
+		// If we cannot find any suitable city spot, disembark
+		// so that we don't needlessly occupy a cargo hold
+		// TODO: Check if the ship has other cargo
+		if (canUnload())
+			unload();
+
 		getGroup()->pushMission(MISSION_SKIP);
 		return;
 	}
@@ -2116,7 +2122,18 @@ void CvUnitAI::AI_scoutMove()
 		return;
 	}
 
-	getGroup()->pushMission(MISSION_SKIP);
+	
+	if (isHuman()) 
+	{
+		const CvWString szBuffer(gDLL->getText("TXT_KEY_SCOUT_FINISHED_EXPLORING"));
+		gDLL->UI().addPlayerMessage(getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, coord(), NULL, MESSAGE_TYPE_MINOR_EVENT, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), true, true);
+		getGroup()->setAutomateType(NO_AUTOMATE);
+	}
+	else
+	{
+		getGroup()->pushMission(MISSION_SKIP);
+	}
+
 	return;
 }
 
@@ -12072,6 +12089,9 @@ bool CvUnitAI::AI_exploreRange(int iRange)
 
 					if (iValue > 0)
 					{
+						if ((pLoopPlot->isVisibleEnemyUnit(this)))
+							continue;
+
 						if (GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pLoopPlot, MISSIONAI_EXPLORE, getGroup(), 3) == 0)
 						{
 							if (generatePath(pLoopPlot, MOVE_BUST_FOG, true))
